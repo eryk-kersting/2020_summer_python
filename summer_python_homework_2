@@ -9,3 +9,9 @@ def dinner ():
     people = int (input('how many people shared the dinner?'))
     cost_per = total/people
     print (cost_per)
+
+def convert (weight, length, temp):
+    weightConverted = weight * 0.453592
+    lengthConverted = length * 2.5400013716
+    tempConverted = (temp - 32)* 5/9
+    return weightConverted, lengthConverted, tempConverted
