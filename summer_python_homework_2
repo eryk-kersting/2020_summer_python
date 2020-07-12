@@ -1,0 +1,11 @@
+
+
+def dinner ():
+    x = float(input('what does the dinner cost?'))
+    tax = x * (0.0825)
+    tip = x * (0.15)
+    total = x + tax + tip 
+    print (total)
+    people = int (input('how many people shared the dinner?'))
+    cost_per = total/people
+    print (cost_per)
