@@ -15,3 +15,11 @@ def convert (weight, length, temp):
     lengthConverted = length * 2.5400013716
     tempConverted = (temp - 32)* 5/9
     return weightConverted, lengthConverted, tempConverted
+
+
+def invest (money, rate, years) :
+    for i in range(years):
+    	money = money * rate
+
+    return money
+
